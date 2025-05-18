@@ -66,7 +66,8 @@ But before we go too far, let's dig into the fundamentals by building our first 
 In ``src/Controller``, create a new ``DefaultController`` class and an ``index``
 method inside::
 
-    // src/Controller/DefaultController.php
+<?php
+// src/Controller/DefaultController.php
     namespace App\Controller;
 
     use Symfony\Component\HttpFoundation\Response;
@@ -91,7 +92,7 @@ a full HTML page.
 But the routing system is *much* more powerful. So let's make the route more interesting:
 
 .. code-block:: diff
-
+<?php
       // src/Controller/DefaultController.php
       namespace App\Controller;
 
